@@ -15,4 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "New Application"
 include(":app")
- 
+include(":newmodule")
+include(":app:dynamicfeature")

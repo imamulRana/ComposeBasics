@@ -55,7 +55,7 @@ fun TipCalculator(modifier: Modifier = Modifier) {
 }
 
 private fun calculateTip(amount: Double, tipPercent: Double): String {
-    val tip = tipPercent / 100 * amount
+    val tip = 15.0 / 100 * amount
     return NumberFormat.getCurrencyInstance().format(tip)
 }
 
