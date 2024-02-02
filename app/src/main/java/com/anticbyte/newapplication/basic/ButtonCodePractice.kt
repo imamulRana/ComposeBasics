@@ -1,4 +1,4 @@
-package com.anticbyte.newapplication
+package com.anticbyte.newapplication.basic
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement

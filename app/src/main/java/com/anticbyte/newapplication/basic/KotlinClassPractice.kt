@@ -1,4 +1,4 @@
-package com.anticbyte.newapplication
+package com.anticbyte.newapplication.basic
 
 class Computer {
     val gameName = "GTA V"

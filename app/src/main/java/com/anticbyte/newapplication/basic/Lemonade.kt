@@ -1,4 +1,4 @@
-package com.anticbyte.newapplication
+package com.anticbyte.newapplication.basic
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -25,6 +25,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.anticbyte.newapplication.R
 import com.anticbyte.newapplication.ui.theme.NewApplicationTheme
 
 @OptIn(ExperimentalMaterial3Api::class)

@@ -1,4 +1,4 @@
-package com.anticbyte.newapplication
+package com.anticbyte.newapplication.basic
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -29,6 +29,7 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.anticbyte.newapplication.R
 import com.anticbyte.newapplication.ui.theme.NewApplicationTheme
 import java.text.NumberFormat
 
