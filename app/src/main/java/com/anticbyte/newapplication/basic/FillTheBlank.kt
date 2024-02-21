@@ -23,21 +23,21 @@ data class FillTheBlank<T>(
 )
 
 
-data class Flower(
-    val flowerName: String,
-    val flowerPrice: Int,
-    val flowerColor: String
-)
-
-
-fun main() {
-    val stringQuestion = FillTheBlank(questionText = "What's Your name?", 2, Difficulty.Easy)
-    println(stringQuestion)
-
-    val rose = Flower("Rose", 40, "Red")
-
-    println(rose)
-}
+//data class Flower(
+//    val flowerName: String,
+//    val flowerPrice: Int,
+//    val flowerColor: String
+//)
+//
+//
+//fun main() {
+//    val stringQuestion = FillTheBlank(questionText = "What's Your name?", 2, Difficulty.Easy)
+//    println(stringQuestion)
+//
+//    val rose = Flower("Rose", 40, "Red")
+//
+//    println(rose)
+//}
 
 
 @Composable

@@ -7,6 +7,9 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
+import com.anticbyte.newapplication.basic.Affirmation
+import com.anticbyte.newapplication.basic.AffirmationList
+import com.anticbyte.newapplication.basic.DataSource
 import com.anticbyte.newapplication.basic.LemonadeApp
 import com.anticbyte.newapplication.ui.theme.NewApplicationTheme
 
@@ -20,7 +23,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    LemonadeApp()
+                    AffirmationList(affirmation = DataSource().loadAffirmations())
                 }
             }
         }

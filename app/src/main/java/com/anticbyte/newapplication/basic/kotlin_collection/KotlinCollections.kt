@@ -57,4 +57,26 @@ fun main() {
 //    personDetails["Imamul"] = ranaNewDetails
 //
 //    println(personDetails["Imamul"])
+
+
+    fun compareTriplets(a: List<Int>, b: List<Int>): List<Int> {
+        var alice = 0
+        var bob = 0
+
+
+        for (i in a.indices) {
+            if (a[i] > b[i]) alice++
+            else if (a[i] < b[i]) bob++
+        }
+
+        println(listOf(alice, bob))
+        return listOf(alice, bob)
+    }
+
+//    compareTriplets(a = listOf(2, 3, 5).sum(), b = listOf(3, 5, 4))
+
+//    compareTriplets(ar = arrayOf(2, 5, 6, 7))
+
+
+
 }
