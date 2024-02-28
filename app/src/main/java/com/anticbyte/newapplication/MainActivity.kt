@@ -11,6 +11,7 @@ import com.anticbyte.newapplication.basic.Affirmation
 import com.anticbyte.newapplication.basic.AffirmationList
 import com.anticbyte.newapplication.basic.DataSource
 import com.anticbyte.newapplication.basic.LemonadeApp
+import com.anticbyte.newapplication.basic.woof.DogItem
 import com.anticbyte.newapplication.ui.theme.NewApplicationTheme
 
 class MainActivity : ComponentActivity() {
@@ -23,7 +24,6 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    AffirmationList(affirmation = DataSource().loadAffirmations())
                 }
             }
         }
